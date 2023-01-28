@@ -1,0 +1,52 @@
+body {
+    background: #c2c5c6;
+    font-family: "Roboto", sans-serif;
+    font-weight: 400;
+  }
+.App {
+    border: 2px solid #000;
+    width: 15%;
+    max-width: 1000px;
+    margin: 100px auto;
+}
+.personas {
+    border-bottom: 2px solid #000;
+}
+.custom-form {
+    font-size: 16px;
+    padding: 5px 0;
+}
+.custom-form .form-group {
+    position: relative;
+    padding-top: 35px;
+    margin-bottom: 16px;
+}
+.custom-form .form-group .form-control::placeholder{
+    position: absolute;
+    left: 15px;
+    font-weight: 300;
+    opacity: 0.7;
+}
+.custom-form .form-group .form-control {
+    position: relative;
+    z-index: 1;
+    border-radius: 0;
+    border-width: 0 0 1px;
+    border-bottom-color: rgba(0, 0, 0, 0.25);
+    height: auto;
+    padding: 3px 0 5px;
+    width: 100%;
+    background-color: #c2c5c6;
+}
+.custom-form .form-group .form-control:focus {
+    border-bottom-color: rgb(64, 63, 63);
+    outline: none;
+}
+.boton {
+    border: none;
+    padding: 10px 25px;
+    margin-bottom: 15px;
+    border-radius: 5px;
+    background-color: rgb(131, 131, 131);
+    color: #fff;
+}
